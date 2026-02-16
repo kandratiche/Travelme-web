@@ -1,0 +1,159 @@
+.why-section {
+  background: white;
+  padding: 5rem 0;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.chaos-card {
+  background: #F9FAFB;
+  border-radius: 1.5rem;
+  padding: 3rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.tabs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tab-item {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  width: 65%;
+}
+
+.tab-pink {
+  border-left: 4px solid #EC4899;
+  margin-left: 30%;
+  rotate: 3deg;
+}
+
+.tab-green {
+  border-left: 4px solid #10B981;
+  rotate: -3deg;
+}
+
+.tab-blue {
+  border-left: 4px solid #3B82F6;
+  rotate: 3deg;
+  margin-left: 25%;
+}
+
+.tab-label {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.tab-pink .tab-label {
+  color: #EC4899;
+}
+
+.tab-green .tab-label {
+  color: #10B981;
+}
+
+.tab-blue .tab-label {
+  color: #3B82F6;
+}
+
+.tab-bar {
+  height: 0.5rem;
+  background: #E5E7EB;
+  border-radius: 9999px;
+}
+
+.experience-card {
+  background: linear-gradient(135deg, #2563EB, #1E40AF);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  color: white;
+}
+
+.experience-icon {
+  width: 4rem;
+  height: 4rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.icon-large {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+.experience-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.experience-description {
+  color: #BFDBFE;
+  margin-bottom: 2rem;
+}
+
+.ai-result {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ai-badge {
+  width: 3rem;
+  height: 3rem;
+  background: white;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #2563EB;
+  font-weight: 700;
+}
+
+.ai-result-info {
+  flex: 1;
+}
+
+.ai-result-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.ai-result-subtitle {
+  font-size: 0.875rem;
+  color: #BFDBFE;
+}
+
+.check-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #10B981;
+}
+
+@media (max-width: 1024px) {
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+}

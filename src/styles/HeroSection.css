@@ -1,0 +1,277 @@
+.hero-section {
+  padding: 5rem 0;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #DBEAFE;
+  color: #1D4ED8;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  margin-bottom: 2rem;
+  width: fit-content;
+}
+
+.badge-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #2563EB;
+  border-radius: 50%;
+}
+
+.badge-text {
+  font-size: 0.875rem;
+}
+
+.hero-title {
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  color: #4B5563;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.social-proof {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.avatars {
+  display: flex;
+  margin-left: -0.5rem;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: -0.5rem;
+}
+
+.avatar-1 {
+  background: linear-gradient(135deg, #A78BFA, #EC4899);
+}
+
+.avatar-2 {
+  background: linear-gradient(135deg, #60A5FA, #06B6D4);
+}
+
+.avatar-3 {
+  background: linear-gradient(135deg, #34D399, #10B981);
+}
+
+.social-proof-text {
+  color: #4B5563;
+}
+
+.hero-mockup {
+  position: relative;
+  height: 40rem;
+}
+
+.mockup-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #DBEAFE, #A5F3FC);
+  border-radius: 3rem;
+  transform: rotate(3deg);
+}
+
+.phone-mockup {
+  position: relative;
+  background: white;
+  border-radius: 3rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border: 8px solid #111827;
+  max-width: 24rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.phone-content {
+  position: relative;
+}
+
+.phone-header {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.header-image {
+  display: flex;
+  justify-self: center;
+  position: relative;
+  z-index: 2;
+  border-radius: 1rem;
+  width: 24rem;
+  height: 100%;
+  object-fit: contain;
+}
+
+.header-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.header-title {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.activity-card {
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.activity-blue {
+  background: #EFF6FF;
+}
+
+.activity-green {
+  background: #F0FDF4;
+}
+
+.activity-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.activity-icon-blue {
+  background: #2563EB;
+}
+
+.activity-icon-green {
+  background: #16A34A;
+}
+
+.activity-icon .icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: white;
+}
+
+.activity-info {
+  flex: 1;
+}
+
+.activity-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.activity-time {
+  font-size: 0.875rem;
+  color: #4B5563;
+}
+
+.ai-comment {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #F9FAFB;
+  border-radius: 1rem;
+}
+
+.ai-comment-label {
+  font-size: 0.75rem;
+  color: #6B7280;
+  margin-bottom: 0.5rem;
+}
+
+.ai-comment-text {
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.fab-button {
+  margin-top: 1rem;
+  width: 3rem;
+  height: 3rem;
+  background: #2563EB;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.fab-button:hover {
+  background: #1D4ED8;
+}
+
+.fab-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
