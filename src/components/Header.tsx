@@ -23,7 +23,6 @@ const Header: React.FC = () => {
 
         <div className='nav-buttons'>
           <button className="btn-login">Войти</button>
-          <button className="btn-primary">Начать</button>
         </div>
       </nav>
     </header>

@@ -39,7 +39,7 @@ const APISection: React.FC = () => {
         <button
           onClick={() =>
             window.open(
-            "https://wa.me/77765157034?text=Здравствуйте,%20хочу%20узнать%20запросить%20демо",
+            "https://wa.me/77765157034?text=Здравствуйте,%20узнать%20запросить%20демо",
             "_blank"
             )
           }
