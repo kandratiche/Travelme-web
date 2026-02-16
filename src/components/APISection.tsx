@@ -36,7 +36,17 @@ const APISection: React.FC = () => {
           </div>
         </div>
         
-        <button className="btn-light">Запросить демо API</button>
+        <button
+          onClick={() =>
+            window.open(
+            "https://wa.me/77765157034?text=Здравствуйте,%20хочу%20узнать%20запросить%20демо",
+            "_blank"
+            )
+          }
+          className="btn-light"
+        >
+            Запросить демо API
+        </button>
       </div>
     </section>
   );
