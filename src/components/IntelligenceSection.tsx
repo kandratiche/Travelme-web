@@ -1,47 +1,17 @@
 import React from 'react';
 import '../styles/IntelligenceSection.css';
+import map from "../assets/map.svg"
 
 const IntelligenceSection: React.FC = () => {
   return (
     <section className="intelligence-section">
       <div className="container">
         <div className="intelligence-grid">
-          <div className="map-card">
-            <div className="map-container">
-              <div className="map-badge">
-                <div className="pulse-dot"></div>
-                <span>Live Demand</span>
-              </div>
-              
-              <img 
-                src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=800&h=500&fit=crop" 
-                alt="World Map" 
-                className="map-image"
-              />
-              
-              <div className="demand-stats">
-                <div className="stat-item">
-                  <span className="stat-label">Coffee</span>
-                  <div className="stat-bar-container">
-                    <div className="stat-bar">
-                      <div className="stat-bar-fill stat-bar-yellow" style={{width: '84%'}}></div>
-                    </div>
-                    <span className="stat-value">84%</span>
-                  </div>
-                </div>
-                <div className="stat-item">
-                  <span className="stat-label">Parks</span>
-                  <div className="stat-bar-container">
-                    <div className="stat-bar">
-                      <div className="stat-bar-fill stat-bar-green" style={{width: '62%'}}></div>
-                    </div>
-                    <span className="stat-value">62%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
+          <img 
+            src={map}
+            alt="World Map" 
+            className="map-image"
+          />
           <div className="intelligence-content">
             <h2 className="section-title">Мы понимаем город.</h2>
             <p className="section-description">
