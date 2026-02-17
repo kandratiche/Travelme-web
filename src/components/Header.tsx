@@ -20,10 +20,6 @@ const Header: React.FC = () => {
           <a href="#features" className="nav-link">Возможности</a>
           <a href="#business" className="nav-link">Для Бизнеса</a>
         </div>
-
-        <div className='nav-buttons'>
-          <button className="btn-login">Войти</button>
-        </div>
       </nav>
     </header>
   );

@@ -24,8 +24,8 @@ const Footer: React.FC = () => {
           <div className="footer-column">
             <h4 className="footer-title">Продукт</h4>
             <ul className="footer-links">
-              <li><a href="#">Возможности</a></li>
-              <li><a href="#">Для Бизнеса</a></li>
+              <li><a href="#features">Возможности</a></li>
+              <li><a href="#business">Для Бизнеса</a></li>
               <li><a href="#">Цены</a></li>
             </ul>
           </div>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>© 2023 Travelme AI. Все права защищены.</p>
+          <p>© 2026 Travelme AI. Все права защищены.</p>
           <div className="footer-legal">
             <a href="#">Политика конфиденциальности</a>
             <a href="#">Условия использования</a>

@@ -39,8 +39,14 @@ const CTASection: React.FC = () => {
                 <span className="step-text">Наслаждайтесь</span>
               </div>
             </div>
-            
-            <button className="btn-primary btn-large">Попробовать сейчас</button>
+            <button 
+              className="btn-primary btn-large"
+              onClick={() => {
+                    document.getElementById("business")?.scrollIntoView({ behavior: "smooth" });
+                }}
+            >
+              Попробовать сейчас
+            </button>
           </div>
         </div>
       </div>
