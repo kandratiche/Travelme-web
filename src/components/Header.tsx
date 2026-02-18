@@ -11,7 +11,7 @@ const Header: React.FC = () => {
             <img src={logo}/>
           </div>
           <span className="logo-text">
-            Travelme<span className="logo-highlight">.ai</span>
+            Travel<span className="logo-highlight">me</span>
           </span>
         </div>
         

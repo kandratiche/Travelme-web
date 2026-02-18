@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                 <img src={logo}/>
               </div>
               <span className="logo-text">
-                Travelme<span className="logo-highlight">.ai</span>
+                Travel<span className="logo-highlight">me</span>
               </span>
             </div>
             <p className="footer-description">
@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
           <div className="footer-column">
             <h4 className="footer-title">Контакты</h4>
             <ul className="footer-links">
-              <li>hello@travelme.ai</li>
+              <li>hello@travelme.kz</li>
               <li>+7 776 515 70 34</li>
               <li className="social-icons">
                 <a href="#" className="social-icon">
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>© 2026 Travelme AI. Все права защищены.</p>
+          <p>© 2026 Travelme. Все права защищены.</p>
           <div className="footer-legal">
             <a href="#">Политика конфиденциальности</a>
             <a href="#">Условия использования</a>
