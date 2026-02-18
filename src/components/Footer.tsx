@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
           <div className="footer-column">
             <h4 className="footer-title">Контакты</h4>
             <ul className="footer-links">
-              <li>hello@travelme.kz</li>
+              <li>info@travelme.kz</li>
               <li>+7 776 515 70 34</li>
               {/* <li className="social-icons">
                 <a href="#" className="social-icon">
