@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/IntelligenceSection.css';
-import map from "../assets/map.svg"
+import map from "../assets/map.jpg"
 
 const IntelligenceSection: React.FC = () => {
   return (
