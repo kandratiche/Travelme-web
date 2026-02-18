@@ -41,14 +41,14 @@ const HeroSection: React.FC = () => {
               </button>
             </div>
             
-            <div className="social-proof">
+            {/* <div className="social-proof">
               <div className="avatars">
                 <div className="avatar avatar-1"></div>
                 <div className="avatar avatar-2"></div>
                 <div className="avatar avatar-3"></div>
               </div>
               <span className="social-proof-text">50+ довольных пользователей</span>
-            </div>
+            </div> */}
           </div>
           
           <div className="hero-mockup">
