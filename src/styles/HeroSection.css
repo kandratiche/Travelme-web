@@ -97,27 +97,34 @@
   display: flex;
   justify-content: center;
   height: 40rem;
+  max-width: 100%;
 }
+
 
 .mockup-bg {
   position: absolute;
   inset: 0;
+  margin-top: -10px;
   background: linear-gradient(135deg, #DBEAFE, #A5F3FC);
   border-radius: 3rem;
   transform: rotate(3deg);
+
+  max-width: 100%;
 }
+
 
 
 .header-image {
-  display: flex;
-  justify-self: center;
   position: relative;
   z-index: 2;
   border-radius: 1rem;
-  width: 24rem;
-  height: 100%;
+
+  width: 100%;
+  max-width: 24rem;
+  height: auto;
   object-fit: contain;
 }
+
 
 .header-badge {
   position: absolute;
