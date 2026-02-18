@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/HeroSection.css';
-import iPhone from "../assets/iPhone17.svg"
+import iPhone from "../assets/iPhone.svg"
 
 const HeroSection: React.FC = () => {
   return (

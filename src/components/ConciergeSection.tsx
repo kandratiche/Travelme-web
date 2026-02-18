@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/ConciergeSection.css';
+import amira from "../assets/Amira.jpg"
 
 const ConciergeSection: React.FC = () => {
   return (
@@ -10,12 +11,12 @@ const ConciergeSection: React.FC = () => {
             <div className="testimonial-card">
               <div className="user-info">
                 <img 
-                  src="https://img.freepik.com/premium-photo/gorgeous-confident-asian-woman-is-sitting-beautiful-cafe-restaurant-city_67155-40037.jpg?semt=ais_hybrid&w=740&q=80" 
+                  src={amira}
                   alt="User" 
                   className="user-avatar"
                 />
                 <div>
-                  <div className="user-name">Алия</div>
+                  <div className="user-name">Амира</div>
                   <div className="user-location">Алматы</div>
                 </div>
               </div>
