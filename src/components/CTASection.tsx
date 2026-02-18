@@ -3,7 +3,7 @@ import '../styles/CTASection.css';
 
 const CTASection: React.FC = () => {
   return (
-    <section className="cta-section">
+    <section id='CTA' className="cta-section">
       <div className="container">
         <div className="cta-card">
           <img 
@@ -42,7 +42,10 @@ const CTASection: React.FC = () => {
             <button 
               className="btn-primary btn-large"
               onClick={() => {
-                    document.getElementById("business")?.scrollIntoView({ behavior: "smooth" });
+                    window.open(
+                      "https://wa.me/77711081905?text=Здравствуйте,%20узнать%20запросить%20демо%20версию%20приложения",
+                      "_blank"
+                    )
                 }}
             >
               Попробовать сейчас

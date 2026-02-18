@@ -23,7 +23,12 @@ const HeroSection: React.FC = () => {
             </p>
             
             <div className="hero-buttons">
-              <button className="btn-primary btn-large">
+              <button 
+                className="btn-primary btn-large"
+                onClick={() => {
+                    document.getElementById("CTA")?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >
                 Создать план бесплатно
               </button>
               <button 

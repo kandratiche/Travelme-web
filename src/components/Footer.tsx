@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
             <h4 className="footer-title">Контакты</h4>
             <ul className="footer-links">
               <li>hello@travelme.ai</li>
-              <li>Алматы, пр. Аль-Фараби 77</li>
+              <li>+7 776 515 70 34</li>
               <li className="social-icons">
                 <a href="#" className="social-icon">
                   <svg fill="currentColor" viewBox="0 0 24 24">

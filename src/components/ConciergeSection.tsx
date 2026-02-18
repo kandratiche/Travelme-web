@@ -10,7 +10,7 @@ const ConciergeSection: React.FC = () => {
             <div className="testimonial-card">
               <div className="user-info">
                 <img 
-                  src="https://i.pravatar.cc/80?img=1" 
+                  src="https://img.freepik.com/premium-photo/gorgeous-confident-asian-woman-is-sitting-beautiful-cafe-restaurant-city_67155-40037.jpg?semt=ais_hybrid&w=740&q=80" 
                   alt="User" 
                   className="user-avatar"
                 />
