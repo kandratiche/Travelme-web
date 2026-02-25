@@ -1,7 +1,19 @@
 import React from 'react';
 import '../styles/CTASection.css';
+import { useTranslation } from "react-i18next";
 
 const CTASection: React.FC = () => {
+  const { t } = useTranslation();
+
+  const handleClick = () => {
+    const message = encodeURIComponent(t("cta.whatsappText"));
+
+    window.open(
+      `https://wa.me/77711081905?text=${message}`,
+      "_blank"
+    );
+  };
+
   return (
     <section id='CTA' className="cta-section">
       <div className="container">
@@ -13,12 +25,14 @@ const CTASection: React.FC = () => {
           />
           
           <div className="cta-content">
-            <h2 className="cta-title">Готовы открыть город заново?</h2>
+            <h2 className="cta-title">
+              {t("cta.title")}
+            </h2>
             
             <div className="cta-steps">
               <div className="cta-step">
                 <div className="step-number">1</div>
-                <span className="step-text">Скачайте приложение</span>
+                <span className="step-text">{t("cta.steps.step1")}</span>
               </div>
               
               <svg className="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -27,7 +41,7 @@ const CTASection: React.FC = () => {
               
               <div className="cta-step">
                 <div className="step-number">2</div>
-                <span className="step-text">Укажите интересы</span>
+                <span className="step-text">{t("cta.steps.step2")}</span>
               </div>
               
               <svg className="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -36,19 +50,15 @@ const CTASection: React.FC = () => {
               
               <div className="cta-step">
                 <div className="step-number">3</div>
-                <span className="step-text">Наслаждайтесь</span>
+                <span className="step-text">{t("cta.steps.step3")}</span>
               </div>
             </div>
+
             <button 
               className="btn-primary btn-large"
-              onClick={() => {
-                    window.open(
-                      "https://wa.me/77711081905?text=Здравствуйте!%20Меня%20интересует%20возможность%20получить%20демо-версию%20вашего%20приложения.%20Буду%20рад(а)%20обсудить%20подробности.",
-                      "_blank"
-                    )
-                }}
+              onClick={handleClick}
             >
-              Попробовать сейчас
+              {t("cta.button")}
             </button>
           </div>
         </div>

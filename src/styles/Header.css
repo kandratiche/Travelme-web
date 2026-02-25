@@ -28,6 +28,35 @@
   color: #111827;
 }
 
+.lang-switch {
+  display: inline-flex;
+  background: #f1f3f5;
+  border-radius: 999px;
+  padding: 4px;
+  gap: 4px;
+}
+
+.lang-btn {
+  border: none;
+  background: transparent;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.25s ease;
+}
+
+.lang-btn:hover {
+  color: #000;
+}
+
+.lang-btn.active {
+  background: #2563EB;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
 .nav-buttons {
   display: flex;
   align-items: center;
